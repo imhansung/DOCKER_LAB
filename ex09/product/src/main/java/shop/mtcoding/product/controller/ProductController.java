@@ -14,7 +14,7 @@ import shop.mtcoding.product.model.Product;
 import shop.mtcoding.product.model.ProductRepository;
 
 //cors 하나하나, 한꺼번에, 필터로 설정 가능
-@CrossOrigin(origins = "http://localhost:3000")
+//@CrossOrigin(origins = "http://localhost:3000")
 @RequiredArgsConstructor
 @RestController
 public class ProductController {
